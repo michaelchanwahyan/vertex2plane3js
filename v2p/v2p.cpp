@@ -244,9 +244,9 @@ int main()
                 _js_rotateY = std::atanf(u[1] / u[0]) - 3.141592654f / 2.0f;
             }
             else {
-                _js_rotateY = u[1] > 0 ? 3.141592654f / 2.0f : -3.141592654.0f / 2.0f;
+                _js_rotateY = u[1] > 0 ? 3.141592654f / 2.0f : -3.141592654f / 2.0f;
                 _js_rotateY = _js_rotateY - 3.141592654f / 2.0f;
-                _js_rotateZ = u[2] > 0 ? 3.141592654f / 2.0f : -3.141592654.0f / 2.0f;
+                _js_rotateZ = u[2] > 0 ? 3.141592654f / 2.0f : -3.141592654f / 2.0f;
             }
         }
         else {
